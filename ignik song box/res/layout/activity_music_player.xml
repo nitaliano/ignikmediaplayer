@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView 
+        android:id="@+id/albumimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:minWidth="200dp"
+        android:minHeight="200dp"
+        android:contentDescription="album image" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/albumimg"
+        android:layout_below="@+id/albumimg" />
+    
+    <Button 
+        android:id="@+id/playbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekbar"
+        android:text="Play"/>
+    
+    <Button 
+        android:id="@+id/pausebtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playbtn"
+        android:text="Pause"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">ignik song box</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ArtistActivity</string>
+    <string name="title_activity_artist">ArtistActivity</string>
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="title_activity_playlist">PlaylistActivity</string>
+    <string name="title_activity_music_player">MusicPlayerActivity</string>
+    <string name="title_activity_list_music">ListMusicActivity</string>
+
+</resources>
